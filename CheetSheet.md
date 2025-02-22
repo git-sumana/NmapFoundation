@@ -1,0 +1,15 @@
+- `-O` : **OS Scan** - It is used for fingerprinting the operating system.
+- `-A` : **Aggressive Scan** - Enables OS detection, version detection, script scanning, and traceroute.
+- `-p` : **Port Specification** - Used to scan specific ports or port ranges.
+- `-sS` : **Stealth Scan** - Conducts a SYN scan to detect open ports without completing a full connection.
+- `-F` : **Fast Scan** - Scans fewer ports (top 100) to speed up the scan.
+- `-h` : **Help** - Displays Nmap's help menu with available options.
+- `-sn` : **Ping Scan** - Only discovers hosts without performing port scanning.
+- `-sA` : **ACK Scan** - Determines firewall rules by sending ACK packets.
+- `-sT` : **TCP Connect Scan** - Uses a full TCP connection to detect open ports.
+- `-sN` : **Null Scan** - Sends packets with no flags set to evade firewalls.
+- `-sX` : **Xmas Scan** - Sends packets with FIN, PSH, and URG flags set to detect filtered ports.
+- `-sF` : **FIN Scan** - Sends FIN packets to check for closed ports.
+- `-sU` : **UDP Scan** - Scans for open UDP ports instead of TCP ports.
+- `-T` : **Timing Template** - Adjusts scan speed from `T0` (slowest) to `T5` (fastest).
+- `-sC` : **Default Script Scan** - Runs default Nmap scripts to gather additional information.
